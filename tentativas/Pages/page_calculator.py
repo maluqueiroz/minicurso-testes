@@ -7,8 +7,6 @@ class Calculator():
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver.instance, 10)
-    
-
 
     def click_btn_one(self):
         self.btn_one = self.wait.until(EC.element_to_be_clickable((By.ID, "one")))

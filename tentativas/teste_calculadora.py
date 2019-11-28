@@ -5,10 +5,10 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 desired_caps = {
-    "deviceName": "Moto Z2",
+    "deviceName": "Sony 8.0",
     "platformName": "Android",
-    "version": "9.0",
-    "app": "https://testingbot.com/appium/sample.apk",
+    "version": "8.0",
+    "app": "apps/sample.apk",
     "realDevice": True
 }
 
