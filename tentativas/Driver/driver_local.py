@@ -4,7 +4,8 @@ class Driver:
     def __init__(self):
         desired_caps = {
             "platformName": "Android",
-            "deviceName": "Moto Z2",
+            "deviceName": "Sony 8.0",
+            "udid": "RQ3005LVP5",
             "app": "apps/portall.apk"
         }
 

@@ -13,7 +13,11 @@ class Testes(unittest.TestCase):
         popUp.fechar_popUp()
 
         calculator = Calculator(self.driver)
-        value = calculator.click_btn_two().click_btn_plus().click_btn_two().click_btn_equal().get_value_display
+        calculator.click_btn_two()
+        calculator.click_btn_plus()
+        calculator.click_btn_two()
+        calculator.click_btn_equal()
+        value = calculator.get_value_display
         
         assert(4, value)
 
